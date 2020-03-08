@@ -10,6 +10,9 @@ import { ProductComponent } from './app/components/product/product.component';
 import { NavbarComponent } from './app/components/navbar/navbar.component';
 import { CheckoutComponent } from './app/components/checkout/checkout.component';
 import { RegisterComponent } from './app/components/register/register.component';
+import { CarouselComponent } from './app/components/carousel/carousel.component';
+import { CardsComponent } from './app/components/cards/cards.component';
+import { SearchComponent } from './app/components/search/search.component';
 
 
 @NgModule({
@@ -20,7 +23,10 @@ import { RegisterComponent } from './app/components/register/register.component'
     ProductComponent,
     NavbarComponent,
     CheckoutComponent,
-    RegisterComponent
+    RegisterComponent,
+    CarouselComponent,
+    CardsComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
