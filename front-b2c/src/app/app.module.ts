@@ -15,6 +15,7 @@ import { CardsComponent } from './app/components/cards/cards.component';
 import { SearchComponent } from './app/components/search/search.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,11 +28,14 @@ import { SearchComponent } from './app/components/search/search.component';
     CarouselComponent,
     CardsComponent,
     SearchComponent
+     
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule 
+    BrowserAnimationsModule  
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
